@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['biological', 'cardboard', 'paper', 'plastic']
+
+roboflow:
+  workspace: projectsssss-7rw7f
+  project: garbage-classification-2pfjx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projectsssss-7rw7f/garbage-classification-2pfjx/dataset/1
